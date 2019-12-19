@@ -1,0 +1,80 @@
+/********** ESTILO PAGINA WEB ************/
+
+/*** ESTILO GENERAL ***/
+
+body {background-color: white;}
+
+#wrapper {size: 95%;
+        margin: auto;}
+
+
+
+/****** ESTILO HEADER ********/
+
+header {background-image: url("imagenes/cabecera.jpg");
+        background-position: right;
+        height: 400px;
+        background-size: cover;}
+
+
+/***** ESTILO NAV *********/
+
+nav {background-color: rgb(31, 31, 31);}
+
+nav ul {margin-top: 0;
+        list-style-type: none;
+        padding: 0;}
+
+nav ul li {display: inline-block;
+        padding: 10px;}
+
+nav ul li a {color: white;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+nav ul li a:hover {color: rgb(190, 36, 62);}
+
+
+
+/***** ESTILO MAIN *****/
+
+main {background-color: white;
+        padding: 2%;}
+
+main h1 {text-align: center;
+        margin-top: 0;
+        color: rgb(218, 98, 118);
+        padding-bottom:20px;}
+
+main img {width: 25%;
+        margin: 3%;}
+
+
+
+/**** ESTILO FOOTER ******/
+
+footer {background-color:rgb(31, 31, 31);}
+
+footer p {text-align: center;
+                font-size: 15px;
+        color: white;
+        margin-top:0;
+        font-weight: bold;
+        padding: 0.7%;}
+
+
+/***** MEDIA QUERIES *******/
+
+@media only screen and (max-width:900px){
+        main img { width: 40%;
+                margin: 3%;}
+}
+
+
+@media only screen and (max-width: 600px){
+        header {background-image: url("imagenes/cabecera2.jpg");
+                height: 100vh;
+                background-position: center;}
+        main img { width: 80%;
+                margin: 10%;}
+}
